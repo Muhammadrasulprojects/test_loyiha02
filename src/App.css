@@ -1,38 +1,231 @@
-.App {
-  text-align: center;
+body {
+  font-family: serif
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: #212419;
+  color: white;
+  padding: 25px 50px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.l {
+  font-size: 26px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+header .container {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 30px;
+  font-weight: 100;
+}
+
+header hr {
+  margin-right: 26px;
+  width: 1315px;
+}
+
+section {
+  background-color: #212419;
+}
+
+section .container1 {
+  margin-top: -130px;
+  padding: 0px 250px;
+  display: inline-block;
+}
+
+section .container2 {
+  margin-top: -130px;
+  display: inline-block;
+  margin-left: 240px;
+}
+
+section .image1 {
+  width: 250px;
+  position: relative;
+  top: 170px;
+}
+
+section h1 {
+  font-size: 60px;
+  color: orangered;
+  margin-bottom: -10px;
+}
+
+section p {
+  font-size: 30px;
+  color: white;
+  font-weight: 100;
+}
+
+section .containerBig {
+  padding-top: 170px;
+  padding-left: 250px;
+  padding-right: 250px;
+  padding-bottom: 90px;
+  background-image: url('https://balthazar.club/uploads/posts/2022-10/1666327050_1-balthazar-club-p-chernii-les-pinterest-1.jpg');
+  background-size: cover;
+}
+
+section .yozuv {
+  text-align: center;
+  align-items: center;
+  background-color: orangered;
+  color: rgb(43, 41, 41);
+  padding: 5px 30px;
+  font-size: 19px;
+  font-weight: 100;
+  max-width: 130px;
+}
+
+section .text {
+  display: inline-block;
+}
+
+section .img {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+img {
+  width: 400px;
+}
+
+h2 {
+  font-size: 50px;
+  color: white;
+  margin-left: 40px
+}
+
+.hsp {
+  justify-content: space-between;
+  margin-left: 40px;
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 18px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#hsp2 {
+  margin-left: 40px;
+  font-weight: 100;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#theeh {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: orangered;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  transition-duration: 0.3s;
+}
+
+.hov {
+  border: 1px solid orangered;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  display: inline-block;
+  max-width: max-content;
+  text-align: center;
+  padding: 10px 22px;
+  margin-right: 25px;
+  font-size: 20px;
+  font-family: 100;
+}
+
+.hov1 {
+  margin-left: 40px;
+  border: 1px solid orangered;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  display: inline-block;
+  max-width: max-content;
+  text-align: center;
+  padding: 10px 22px;
+  margin-right: 25px;
+  font-size: 20px;
+  font-family: 100;
+}
+
+.hov:hover {
+  background-color: orangered;
+  transition-duration: 0.7s;
+}
+
+.hov1:hover {
+  background-color: orangered;
+  transition-duration: 0.7s;
+}
+
+
+#middleSection {
+  background-color: rgb(0, 0, 21);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+h3 {
+  color: orangered;
+  font-size: 40px;
+  font-weight: 100;
+  text-align: center;
+}
+
+#pr {
+  display: flex;
+  align-items: center;
+  margin-left: 190px;
+}
+
+.pr1 {
+  display: inline-block;
+  margin-right: 100px;
+}
+
+h4 {
+  font-size: 40px;
+  color: orangered;
+  text-align: center;
+}
+
+.prp {
+  font-size: 16px;
+  color: white;
+  font-weight: 100;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.prp2 {
+  text-align: center;
+  font-size: 20px;
+  color: orangered;
+  font-weight: 100;
+}
+
+#middleSection hr {
+  width: 90px;
 }
